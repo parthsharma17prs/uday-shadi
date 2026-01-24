@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uday & Neha's Wedding | February 14, 2025</title>
+    <meta name="description"
+        content="Join us in celebrating the wedding of Uday and Neha. February 14, 2025 in Bangalore, India. View the invitation, events, venue details, and share your wishes.">
+    <meta name="author" content="Uday & Neha">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Uday & Neha's Wedding">
+    <meta property="og:description"
+        content="You're invited to celebrate our special day. February 14, 2025 in Bangalore, India.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Royal Curtain Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="curtain curtain-left"></div>
+        <div class="curtain curtain-right"></div>
+        <div class="preloader-content">
+            <div class="preloader-logo">U & N</div>
+            <div class="loader-spinner"></div>
+            <p>Welcome to our celebration...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">U & N</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#events" class="nav-link">Events</a></li>
+                <li><a href="#venue" class="nav-link">Venue</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#wishes" class="nav-link">Wishes</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="falling-flowers" id="fallingFlowers"></div>
+        <div class="hero-content">
+            <div class="hero-logo">U & N</div>
+            <p class="hero-tagline">We're Getting Married</p>
+            <h1 class="hero-names">Uday & Neha</h1>
+            <div class="hero-details">
+                <p class="hero-date">February 14, 2025</p>
+                <p class="hero-location">Bangalore, India</p>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('events')">View Invite</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('gallery')">Open Album</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Love Story Section -->
+    <section class="love-story-section">
+        <div class="container">
+            <div class="love-story-grid">
+                <div class="love-story-content fade-in">
+                    <h2 class="section-title">How We Met</h2>
+                    <p class="love-story-text">
+                        Our story began on a beautiful summer evening in 2021, when fate brought us together
+                        at a mutual friend's gathering. From the first conversation, we knew there was something
+                        special. What started as friendship blossomed into a beautiful romance filled with laughter,
+                        adventures, and endless love.
+                    </p>
+                    <p class="love-story-text">
+                        Through every sunrise and sunset, every challenge and triumph, we've grown together.
+                        Now, we're ready to embark on the greatest adventure of all - spending the rest of our
+                        lives together.
+                    </p>
+                </div>
+                <div class="love-story-image fade-in">
+                    <img src="images/love-story.png" alt="Our Love Story"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px; box-shadow: 0 10px 40px rgba(155, 125, 75, 0.2);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title text-center">Our Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon">
+                        <i class="fas fa-star"></i>
+                        <img src="images/love-story.png" alt="First Met" class="timeline-hover-img">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-year">2021</h3>
+                        <p class="timeline-title">First Met</p>
+                        <p class="timeline-description">The beginning of our beautiful story</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon">
+                        <i class="fas fa-ring"></i>
+                        <img src="images/gallery-rings.png" alt="Engaged" class="timeline-hover-img">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-year">2024</h3>
+                        <p class="timeline-title">Engaged</p>
+                        <p class="timeline-description">A promise to love forever</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon">
+                        <i class="fas fa-heart"></i>
+                        <img src="images/gallery-dancing.png" alt="Forever" class="timeline-hover-img">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-year">2025</h3>
+                        <p class="timeline-title">Forever</p>
+                        <p class="timeline-description">The start of our happily ever after</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Events Section (Timeline Style) -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2 class="section-title text-center">Wedding Events</h2>
+            <p class="section-subtitle text-center">Join us in celebrating our special moments</p>
+
+            <div class="events-timeline">
+                <!-- Event 1: Haldi (Yellow) -->
+                <div class="timeline-event fade-in" data-theme="haldi">
+                    <div class="timeline-content-left">
+                        <div class="event-card">
+                            <h3 class="event-title">Haldi Ceremony</h3>
+                            <p class="event-date">February 12, 2025 | 10:00 AM</p>
+                            <p class="event-description">
+                                A traditional ceremony where turmeric paste is applied to the bride and groom
+                                for a radiant glow and blessings.
+                            </p>
+                            <button class="btn btn-outline" onclick="showLocation('Haldi Ceremony')">
+                                <i class="fas fa-map-marker-alt"></i> View Location
+                            </button>
+                        </div>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content-right"></div>
+                </div>
+
+                <!-- Event 2: Mehendi (Green) -->
+                <div class="timeline-event fade-in" data-theme="mehendi">
+                    <div class="timeline-content-left"></div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content-right">
+                        <div class="event-card">
+                            <h3 class="event-title">Mehendi</h3>
+                            <p class="event-date">February 12, 2025 | 4:00 PM</p>
+                            <p class="event-description">
+                                An artistic celebration where intricate henna designs are applied,
+                                symbolizing joy and spiritual awakening.
+                            </p>
+                            <button class="btn btn-outline" onclick="showLocation('Mehendi')">
+                                <i class="fas fa-map-marker-alt"></i> View Location
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 3: Sangeet (Pink/Purple) -->
+                <div class="timeline-event fade-in" data-theme="sangeet">
+                    <div class="timeline-content-left">
+                        <div class="event-card">
+                            <h3 class="event-title">Sangeet Night</h3>
+                            <p class="event-date">February 13, 2025 | 7:00 PM</p>
+                            <p class="event-description">
+                                A night filled with music, dance, and celebration as our families
+                                come together in joyous harmony.
+                            </p>
+                            <button class="btn btn-outline" onclick="showLocation('Sangeet Night')">
+                                <i class="fas fa-map-marker-alt"></i> View Location
+                            </button>
+                        </div>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content-right"></div>
+                </div>
+
+                <!-- Event 4: Wedding (Red/Gold) -->
+                <div class="timeline-event fade-in" data-theme="wedding">
+                    <div class="timeline-content-left"></div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content-right">
+                        <div class="event-card">
+                            <h3 class="event-title">Wedding Ceremony</h3>
+                            <p class="event-date">February 14, 2025 | 11:00 AM</p>
+                            <p class="event-description">
+                                The sacred moment when we take our vows and begin our journey
+                                as partners for life.
+                            </p>
+                            <button class="btn btn-outline" onclick="showLocation('Wedding Ceremony')">
+                                <i class="fas fa-map-marker-alt"></i> View Location
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 5: Reception (Blue/Gold) -->
+                <div class="timeline-event fade-in" data-theme="reception">
+                    <div class="timeline-content-left">
+                        <div class="event-card">
+                            <h3 class="event-title">Reception</h3>
+                            <p class="event-date">February 14, 2025 | 7:00 PM</p>
+                            <p class="event-description">
+                                Join us for an evening of dinner, dancing, and celebration
+                                as we toast to new beginnings.
+                            </p>
+                            <button class="btn btn-outline" onclick="showLocation('Reception')">
+                                <i class="fas fa-map-marker-alt"></i> View Location
+                            </button>
+                        </div>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content-right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue Section -->
+    <section id="venue" class="venue-section">
+        <div class="container">
+            <h2 class="section-title text-center">The Venue</h2>
+            <div class="venue-content">
+                <div class="venue-details fade-in">
+                    <h3 class="venue-name">The Grand Palace Hotel</h3>
+                    <p class="venue-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        123 MG Road, Bangalore, Karnataka 560001, India
+                    </p>
+                    <p class="venue-description">
+                        A stunning venue that combines traditional elegance with modern luxury,
+                        providing the perfect backdrop for our special day.
+                    </p>
+                    <div class="venue-features">
+                        <div class="feature">
+                            <i class="fas fa-parking"></i>
+                            <span>Valet Parking</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-wheelchair"></i>
+                            <span>Accessible</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-wifi"></i>
+                            <span>Free WiFi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="venue-map fade-in">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6966798195394!2d77.59400431482168!3d12.971598990861174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sMG%20Road%2C%20Bangalore!5e0!3m2!1sen!2sin!4v1642345678901!5m2!1sen!2sin"
+                        width="100%" height="400" style="border:0; border-radius: 15px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Information Section -->
+    <section class="travel-section">
+        <div class="container">
+            <h2 class="section-title text-center">Travel Information</h2>
+            <div class="travel-grid">
+                <div class="travel-card fade-in">
+                    <div class="travel-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3 class="travel-title">Accommodations</h3>
+                    <p class="travel-description">
+                        We have arranged special rates at nearby hotels for our guests.
+                        Please use code "AR2025" when booking.
+                    </p>
+                    <ul class="travel-list">
+                        <li>The Grand Palace Hotel - Main Venue</li>
+                        <li>Comfort Inn - 2km away</li>
+                        <li>Park View Resort - 3km away</li>
+                    </ul>
+                </div>
+
+                <div class="travel-card fade-in">
+                    <div class="travel-icon">
+                        <i class="fas fa-shuttle-van"></i>
+                    </div>
+                    <h3 class="travel-title">Transportation</h3>
+                    <p class="travel-description">
+                        Complimentary shuttle service will be available from designated hotels
+                        to the venue and back.
+                    </p>
+                    <ul class="travel-list">
+                        <li>Pick-up times: 9:00 AM & 6:00 PM</li>
+                        <li>Return shuttles available all evening</li>
+                        <li>Contact us for shuttle schedules</li>
+                    </ul>
+                </div>
+
+                <div class="travel-card fade-in">
+                    <div class="travel-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3 class="travel-title">Airport</h3>
+                    <p class="travel-description">
+                        Kempegowda International Airport (BLR) is approximately 35km from the venue.
+                        Allow 60-90 minutes for travel.
+                    </p>
+                    <ul class="travel-list">
+                        <li>Taxi services available 24/7</li>
+                        <li>Uber & Ola ride-sharing options</li>
+                        <li>Airport shuttle can be arranged</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title text-center">Our Memories</h2>
+            <p class="section-subtitle text-center">A glimpse into our beautiful journey together</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-prewedding.png" alt="Pre-wedding Shoot"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-family.png" alt="Family Blessing"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-candid.png" alt="Fun Moments"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-dancing.png" alt="Couple Dancing"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-haldi.png" alt="Haldi Ceremony"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-rings.png" alt="Ring Exchange"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <div class="gallery-button">
+                <button class="btn btn-primary" onclick="alert('Full gallery feature coming soon!')">
+                    View Full Gallery
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes Section -->
+    <section id="wishes" class="wishes-section">
+        <div class="container">
+            <h2 class="section-title text-center">Wishes & Messages</h2>
+            <p class="section-subtitle text-center">Share your love and blessings with us</p>
+
+            <div class="wishes-content">
+                <div class="wishes-form-container fade-in">
+                    <form id="wishesForm" class="wishes-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Share your wishes..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Wishes
+                        </button>
+                    </form>
+                </div>
+
+                <div class="wishes-feed fade-in">
+                    <h3 class="feed-title">Recent Messages</h3>
+                    <div id="messagesFeed" class="messages-feed">
+                        <div class="message-card">
+                            <div class="message-header">
+                                <span class="message-author">Wedding Team</span>
+                                <span class="message-date">Just now</span>
+                            </div>
+                            <p class="message-text">
+                                Thank you for being part of our special day! We can't wait to celebrate with you all. ❤️
+                            </p>
+                        </div>
+
+                        <div class="message-card">
+                            <div class="message-header">
+                                <span class="message-author">Priya Sharma</span>
+                                <span class="message-date">2 hours ago</span>
+                            </div>
+                            <p class="message-text">
+                                Congratulations to the beautiful couple! Wishing you a lifetime of love and happiness!
+                                🎉
+                            </p>
+                        </div>
+
+                        <div class="message-card">
+                            <div class="message-header">
+                                <span class="message-author">Rajesh Kumar</span>
+                                <span class="message-date">5 hours ago</span>
+                            </div>
+                            <p class="message-text">
+                                So happy for both of you! May your marriage be filled with endless joy and adventures!
+                                💑
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-names">Uday & Neha</h3>
+                <p class="footer-date">February 14, 2025</p>
+                <p class="footer-location">Bangalore, India</p>
+
+                <div class="footer-contact" style="margin: 1.5rem 0; font-size: 1.1rem; color: var(--light-gold);">
+                    <p><i class="fas fa-envelope"></i> enquiry@positiveway.in</p>
+                    <p style="margin-top: 0.5rem;"><i class="fas fa-phone"></i> Contact - 8319556016</p>
+                </div>
+
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="footer-copyright">
+                    Made with <i class="fas fa-heart"></i> for our special day
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Chat Button -->
+    <div class="chat-button" id="chatButton">
+        <i class="fas fa-comment-dots"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
